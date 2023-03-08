@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
+            <meta name="viewport" content="width=device-width, inital-scale=1.0">
+            <title>Personal Portfolio</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/ca8c0f9ecd.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Student/ Developer</p>
+                    <h1>Hi, I'm <span>Asheesh</span><br> Joshi From India</h1>
+                </div>
+                <!--<img src="cover2.png" alt="pic" style="margin-left:45%; margin-top:-450px; width:550px; height:545px;">-->
+                
+            </div>
+        </div>
+        <!-----------about---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user2.jpg" class = "img1" alt="user">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About me</h1>
+                        <p class="about-content">I Live in Delhi. I am a detail oriented, hard working professional with exceptional programming skills pursuing my Master's of Computer Application(MCA). I am skilled in various programming languages and using them for software development. Logical and organised individual with a strong foundation in software engineering. Proficient in C++, C#, Python and Java. Seeking to raise coding KPIs by providing error-free codes. Ability to translate business requirements into innovative software solutions. Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certification')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span><b>Programming Languages</b></span><br>C, C++, C#, Java, Python</li>
+                                <li><span><b>Web Designing</b></span><br>HTML, CSS, JavaScript</li>
+                                <li><span><b>Databases</b></span><br>SqlServer, MySql, Oracle Database</li>
+                                <li><span><b>Operation Systems</b></span><br>Windows, Unix</li>
+                                <li><span><b>Additional Tools</b></span><br>MS Office, Photoshop</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span><b>2021-2023</b></span><br>MCA from ITS, Mohan Nagar</li>
+                                <li><span><b>2017-2020</b></span><br>BCA from Amrapali Institute, Haldwani</li>
+                                <li><span><b>2016-2017</b></span><br>12th from GIC Pithoragarh, Uttarakhand</li>
+                                <li><span><b>2014-2015</b></span><br>10th from GIC Pithoragarh, Uttarakhand</li>
+                           </ul>
+                        </div>
+                        <div class="tab-contents" id="certification">
+                            <ul>
+                               <a href="js.JPG" target="_blank" style="text-decoration: none;"> <li><span><b>JavaScript Algorithm and Data Structure</b></span></a><br>freeCodeCamp (Issued on Oct 2022)</li>
+                               <a href="tds.pdf" target="_blank" style="text-decoration: none;"><li><span><b>Tools for Data Science</b></span></a><br>Coursera IBM (Issued on Oct 2022)</li>
+                               <a href="Deloitte.pdf" target="_blank" style="text-decoration: none;"><li><span><b>Delloite Virtual Internship</b></span></a><br>Delloite(Issued on Sept 2022)</li>
+                               <a href="tcs.pdf" target="_blank" style="text-decoration: none;"><li><span><b>Communication Skills</b></span></a><br>TCSion (Issued on Aug 2022)</li>
+                               <a href="dsm.pdf" target="_blank" style="text-decoration: none;"><li><span><b>Data Science Methodologies</b></span></a><br>Coursera IBM (Issued on Nov 2022)</li>
+                               <a href="python.pdf" target="_blank" style="text-decoration: none;"><li><span><b>Python for Data Science and AI</b></span></a><br>Coursera IBM (Issued on Nov 2022)</li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------Services------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design is the art of planning and arranging content on a website so that it can be shared and accessed online with the world. A combination of aesthetic and functional elements, web design is what determines the look of a website—such as its colors, fonts, and graphics—as well as shaping the site’s structure and the users’ experience of it.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Web Application Development</h2>
+                        <p>Web application development is the creation of application programs that reside on remote servers and are delivered to the user’s device over the Internet. A web application (web app) does not need to be downloaded and is instead accessed through a network. An end user can access a web application through a web browser such as Google Chrome, Safari, or Mozilla Firefox. A majority of web applications can be written in JavaScript, Cascading Style Sheets (CSS), and HTML5.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Desktop Application Development</h2>
+                        <p>Desktop apps are software programs that interact with the operating system instead of web-based or mobile apps. They can be any program so long as they run on a desktop computer and provide a user interface for input and output.  Desktop applications are usually used in one place but might have a “system tray” icon that remains visible on the screen. The term is also used to define an app that runs only on the desktop rather than being available through a browser or other means.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------Portfolio-------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work1.JPG" alt="img" style="width:400px; height:450px;">
+                        <div class="layer">
+                            <h3>E-commerce Web Application</h3>
+                            <p>The web app let the people around the world to shop anything online from anywhere.
+                                Go to BuyIt.com and enjoy shopping.</p>  
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Work2.JPG" alt="img" style="width:400px; height:450px;">
+                        <div class="layer">
+                            <h3>IPL Data Analysis</h3>
+                            <p>This Data Analysis provides the accurate information of all seasons of ipls along with some crucial analytical aspect, represented in a interactive graphical way.</p>  
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.png" alt="img" style="width:400px; height:450px;">
+                        <div class="layer">
+                            <h3>Project Management System</h3>
+                            <p>The web app let the corporate people to connect with each other for sharing of project related information along with some more interesting features.</p>  
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-----------Contact form------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>asheesh.j99@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/in/asheesh-joshi-550177146/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/asheesh110"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="AsheeshResume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Asheesh. Made by Asheesh Joshi</p>
+            </div>
+        </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    </body>
+
+
+</html> 
